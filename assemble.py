@@ -1,7 +1,7 @@
 import os, random
 from PIL import Image
 
-def assemble(size, dimensions, folder="./img", seed=None):
+def assemble(size=640, dimensions=(6,6), folder="./img", seed=None):
     if seed:
         random.seed(seed)
     poster = Image.new("RGB", (dimensions[0]*size, dimensions[1]*size))
