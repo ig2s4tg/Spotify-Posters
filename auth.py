@@ -39,7 +39,3 @@ def get_token():
     print("Stored token locally in keys.json")
 
     return keys["token"]
-
-
-
-#OGNiNjMwYmQxOGU2NGU2NzhkZDc5MDZkZWI3YjNjNTM6MGYwZDRiNzljZWZhNGRiMTgyMjZlNjJmYTExZGZlYTg=
